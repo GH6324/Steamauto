@@ -3,7 +3,7 @@ import os
 is_latest_version = False
 no_pause = False
 
-CURRENT_VERSION = "5.2.3"
+CURRENT_VERSION = "5.2.2"
 
 VERSION_FILE = "version.json"
 APPRISE_ASSET_FOLDER = "Apprise"
@@ -297,8 +297,7 @@ DEFAULT_CONFIG_JSON = r"""
   "no_pause": false,
   // 本地插件白名单 当以下本地插件与程序附带不一样时，将不会被覆盖
   "plugins_whitelist": []
-  // 源码运行时自动更新程序
-  "source_code_auto_update": false,
+}
 """
 
 STEAM_ERROR_CODES = {
